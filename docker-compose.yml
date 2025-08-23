@@ -1,0 +1,24 @@
+services:
+  fastapi:
+    build: .
+    container_name: fastapi_appp
+    command: uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+
+  streamlit:
+    build: .
+    container_name: streamlit_appp
+    command: streamlit run streamlit.py --server.port=8501 --server.address=0.0.0.0
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    depends_on:
+      - fastapi
+
+
+   
+
