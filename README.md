@@ -56,7 +56,12 @@ Online Shoppers Intention dataset (UCI)](https://archive.ics.uci.edu/ml/datasets
   - Recall (class 0): 0.93
   - Precision (class 1): 0.61
   - Recall (class 1): 0.62  
-- **ROC-AUC**: ~0.89  
+- **ROC-AUC**: ~0.89
+
+## Security
+•	Paswords are **securely hashed** before  being stored in the SQLite database.
+•	Authentication is implemented using **JWT tokens** for login/session management. This ensures data security and protects user credentials.
+
 
 
 ## 🔹 Deployment
