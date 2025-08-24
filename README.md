@@ -97,7 +97,9 @@ Streamlit → http://localhost:8501 Contac
 
 ## Contact
 Email – mrm.khosravi@yahoo.com
-Project Link: https://github.com/maryamkhosravii/california-housing-ml-app 
+
+Project Link: https://github.com/maryamkhosravii/shopper-intention
+
 Made with ❤️ by Maryam Khosravi
 
 
